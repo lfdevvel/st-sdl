@@ -1,7 +1,7 @@
 # st - simple terminal
 # See LICENSE file for copyright and license details.
 
-include config_rs97.mk
+include config_lf1000.mk
 
 SRC = st.c keyboard.c font.c msg_queue.c
 OBJ = ${SRC:.c=.o}

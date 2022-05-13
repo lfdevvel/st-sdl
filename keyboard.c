@@ -4,22 +4,23 @@
 #define NUM_ROWS 6
 #define NUM_KEYS 18
 
-//#ifdef RS97
+#ifdef lf1000
 
 #define KEY_UP SDLK_UP
 #define KEY_DOWN SDLK_DOWN
 #define KEY_LEFT SDLK_LEFT
 #define KEY_RIGHT SDLK_RIGHT
-#define KEY_ENTER SDLK_LCTRL // A
-#define KEY_TOGGLE SDLK_LALT // B
-#define KEY_BACKSPACE SDLK_BACKSPACE // R
-#define KEY_SHIFT SDLK_TAB // L
-#define KEY_LOCATION SDLK_LSHIFT // Y
-#define KEY_ACTIVATE SDLK_SPACE // X
-#define KEY_QUIT SDLK_ESCAPE // SELECT
-#define KEY_HELP SDLK_RETURN // START
+#define KEY_ENTER SDLK_b // A
+#define KEY_TOGGLE SDLK_a // B
+#define KEY_LOCATION SDLK_h // Y
+#define KEY_ACTIVATE SDLK_p // X
+#define KEY_BACKSPACE SDLK_r // R
+#define KEY_SHIFT SDLK_l // L
+#define KEY_QUIT SDLK_u // SELECT
+#define KEY_HELP SDLK_d // START
 
-/*#else
+// for later, maybe Explorer GS / etc
+#else
 
 #define KEY_UP SDLK_UP
 #define KEY_DOWN SDLK_DOWN
@@ -32,7 +33,7 @@
 #define KEY_LOCATION SDLK_l
 #define KEY_ACTIVATE SDLK_BACKQUOTE
 
-#endif*/
+#endif
 
 #define KMOD_SYNTHETIC (1 << 13)
 
